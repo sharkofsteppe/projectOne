@@ -1,0 +1,33 @@
+.common-properties {
+    height: 2471px;
+    width: 1440px;
+    left: 65px;
+    top: 0px;
+    border-radius: 0px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+.some-background {
+    font-family:  Times New Roman;
+    color: white;
+    background-color: black;
+    width: 1310px;
+    height: 40px;
+    text-align: left;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+}
+.properties-text {
+    /* position: absolute; */
+    width: 1450px;
+    font-family: Times New Roman;
+    font-size: 25px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: left;
+    
+}
