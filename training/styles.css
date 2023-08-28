@@ -3,12 +3,12 @@
     font-style: italic;
   }
 
-.call-to-action {
-    font-style: italic;
-    background-color: #0b24fb;
-  }
 
-.button {
+.button:link,
+.button:visited {
+
+    display: block;
+    text-decoration: none;
     color: #FFF;
     background-color: #29fd2f;
     font-weight: bold;
@@ -20,3 +20,52 @@
     width: 200px;
     margin: 20px auto;
   }
+
+.button:hover,
+.button:visited:hover {
+    color: #FFF;
+    background-color: #76AEED;
+  }
+
+.button:active,
+.button:visited:active {
+    color: #FFF;
+    background-color: #5995DA;
+  }
+  .call-to-action:link,
+  .call-to-action:visited {
+      font-style: italic;
+      background-color: #EEB75A;
+    }
+    
+  .call-to-action:hover,
+  .call-to-action:visited:hover {
+      background-color: #F5CF8E;
+    }
+    
+  .call-to-action:active,
+  .call-to-action:visited:active {
+      background-color: #EEB75A;
+    }
+
+p:last-of-type {
+  margin-bottom: 50px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
