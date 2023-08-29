@@ -14,5 +14,54 @@
 
 .menu {
   width: 900px;
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid #fff;
+}
+
+.login {
+  margin-left: 20px;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f1eeee;
+  color: #000000;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .social,
+.logo,
+.subscribe {
+  border: 1px solid #000000;
+} */
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.photo-grid-item {
+  width: 300px;
+  height: 300px;
   border: 1px solid #fff;
 }
