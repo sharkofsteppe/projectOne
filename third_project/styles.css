@@ -9,6 +9,9 @@
     display: flex;
     flex: wrap;
     flex-direction: column;
+    margin: auto;
+    
+    /* justify-content: center; */
 }
 .header-container{
     display: flex;
@@ -16,6 +19,7 @@
     background-color: #E5E000;
     height: 200px;
     width: 100%;
+    justify-content: flex-start;
 
 }
 .header{
@@ -44,4 +48,16 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.links-box{
+    height: 100px;
+    width: 100%;
+    background-color: #E5E000;
+    justify-content: flex-start;
+}
+.link-text-box{
+    width: 935px;
+    height: 29px;
+    padding-left: 80px;
+
 }
