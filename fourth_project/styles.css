@@ -40,10 +40,8 @@
     height: 904px;
     box-sizing: border-box;
     background-color: white;
-    justify-content: center;
-    padding: 52px 0;
-    /* padding-left: 70px;
-    padding-right: 70px; */
+    justify-content: space-between;
+    padding: 52px 70px;
 }
 .main-box {
     display: flex;
@@ -53,7 +51,6 @@
     border: 5px solid #E5E000;
     border-radius: 30px;
     flex-direction: column;
-    margin: 0 25px;
     padding: 33px;
 }
 .main-box-header{
@@ -109,7 +106,7 @@
     height: 29px;
     flex-shrink: 0;
 
-    background: url("images/image.png");
+    background: url("images/image.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
