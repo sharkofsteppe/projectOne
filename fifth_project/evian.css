@@ -6,10 +6,38 @@
 
 .header {
     display: flex;
+    position: fixed;
+    z-index: 3;
     width: 100%;
     height: 140px;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 50px;
     color: white;
+}
+.evian {
+    display: flex;
+    align-items: center;
+    color: #E50043;
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+.header-info {
+    display: flex;
+    align-items: center;
+    color: #E50043;
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+.header-info > li {
+    margin-right: 25px;
+    display: inline;
+}
+.header-info >li:last-of-type {
+    margin-right: 0;
 }
 .footer {
     display: flex;
