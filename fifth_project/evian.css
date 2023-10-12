@@ -20,7 +20,6 @@
     color: #E50043;
     font-family: Arial;
     font-size: 50px;
-    font-style: normal;
     font-weight: 400;
 }
 .header-info {
@@ -29,7 +28,6 @@
     color: #E50043;
     font-family: Arial;
     font-size: 50px;
-    font-style: normal;
     font-weight: 400;
 }
 .header-info > li {
@@ -38,6 +36,42 @@
 }
 .header-info >li:last-of-type {
     margin-right: 0;
+}
+
+.logo {
+    display: flex;
+    background: url("images/evian_origins_logo.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 950px;
+    z-index: 1;
+    justify-content: center;
+}
+.logo-text {
+    display: flex;
+    text-align: center;
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: normal;
+    color: #E50043;
+    z-index: 2;
+    align-items: center;
+}
+.pink-box {
+    width: 1040px;
+    height: 280px;
+    border-radius: 20px;
+    border: 3px solid #F8BFC7;
+}
+.description {
+    color: #000;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.25px;
 }
 .footer {
     display: flex;
