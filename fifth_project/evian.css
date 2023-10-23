@@ -7,12 +7,13 @@
 .header {
     display: flex;
     position: fixed;
+    /* top: 0; */
     z-index: 3;
     width: 100%;
     height: 140px;
     justify-content: space-between;
     padding: 50px;
-    color: white;
+    background-color: white;
 }
 .evian {
     display: flex;
@@ -47,6 +48,8 @@
     height: 950px;
     z-index: 1;
     justify-content: center;
+    margin-top: 140px;
+
 }
 .logo-text {
     display: flex;
@@ -59,19 +62,63 @@
     z-index: 2;
     align-items: center;
 }
+.pink-box-cont {
+    display: flex;
+    justify-content: center;
+}
 .pink-box {
+    display: flex;
+    padding: 24px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
     width: 1040px;
     height: 280px;
-    border-radius: 20px;
-    border: 3px solid #F8BFC7;
-}
-.description {
+    margin: 150px 0;
+
     color: #000;
     font-family: Arial;
     font-size: 25px;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.25px;
+}
+
+.bottle {
+    display: flex;
+    justify-content: center;
+}
+
+.bottle-photo {
+    margin-right: 100px;
+}
+
+.bottle-photo > p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 42px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+}
+.composition{
+    padding: 30px 30px 30px 80px;
+}
+.composition-bottle{
+    margin-right: 80px;
+}
+.copyright {
+    width: 100%;
+    height: 140px;
+    padding: 50px;
+    justify-content: flex-start;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
 }
 .footer {
     display: flex;
