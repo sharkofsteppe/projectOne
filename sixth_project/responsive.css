@@ -3,7 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-@media only screen and (min-width: 845px) {
+.header-cont{
+    display: flex;
     
+    height: 100px;
+    background-color: #0000FF;
+}
+.main-cont{
+    display: flex;
+    background-color: white;
+}
+.footer-cont{
+    display: flex;
+    
+    height: 100px;
+    background-color: #0000FF;
+}
+@media only screen and (min-width: 845px) {
+
 }
